@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors())
-const calc=require('./routes/calc')
+const calc=require('./route/calc')
 app.use('/api/calc',calc)
 
 
