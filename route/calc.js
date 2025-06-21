@@ -1,6 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
+router.get('/',(req,res)=>{
+    res.json({message: 'Welcome to the Calculator API!', instructions: 'Use POST requests to /add, /subtract, /multiply, or /divide'})
+
+})
+
 // Add
 router.post('/add', (req, res) => {
     const { num1, num2 } = req.body;
@@ -32,9 +37,5 @@ router.post('/divide', (req, res) => {
     res.json({message: "Division successful",num1,num2,result: quotient });
 });
 
-router.get('/',(req,res)=>{
-    res.json({message: 'Welcome to the Calculator API!', instructions: 'Use POST requests to /add, /subtract, /multiply, or /divide'})
-
-})
 module.exports = router;
 
