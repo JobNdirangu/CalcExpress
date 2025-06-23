@@ -199,21 +199,3 @@ You can test the API using tools like **Insomnia** or **Postman**.
 * Expand the API to include modulus (%) or exponentiation
 * Add a `/history` endpoint that logs previous calculations (in memory)
 
----
-
-## 📜 License
-
-This project is open source and free to use for learning and teaching purposes.
-
----
-
-## 🙋 Need Help?
-
-Raise an issue or ask your instructor for guidance!
-
-```
-
----
-
-Let me know if you'd like a downloadable `.md` version or for me to help you set up a GitHub repository for this project!
-```
